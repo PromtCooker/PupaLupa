@@ -259,30 +259,77 @@
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header__inner">
-                <a href="/">
-                    <img src="https://gonzocybersport.ru/wp-content/uploads/2025/04/logo.svg" alt="Gonzo Cybersport" class="header__logo">
+<header>
+    <div class="container">
+        <div class="header__inner flex">
+            <div>
+                <a href="https://gonzocybersport.ru/" rel="home">
+                    <img src="https://gonzocybersport.ru/wp-content/uploads/2025/04/logo.svg" alt="" class="header__logo">
                 </a>
-                <a href="tel:+79398888893" class="header__phone">+7-939-888-88-93</a>
-                <div class="header__call">Обратный звонок</div>
-                <div class="header__social">
-                    <a href="https://t.me/gonzo_cyber_bot" target="_blank">
-                        <img class="social-icon" src="https://gonzocybersport.ru/wp-content/themes/gonzo/images/telegram-icon.svg" alt="Telegram">
+            </div>
+            <div>
+                <nav>  
+                    <div class="menu-glavnoe-menyu-container">
+                        <ul id="menu-glavnoe-menyu" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
+                                <a href="/" aria-current="page">Главная</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="/spaces/">Игровые пространства</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="/pricing/">Тарифы</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="/kitchen/">Кухня</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="/events/">События</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="/blog/">Блог</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="/faq/">FAQ</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="/contacts/">Контакты</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="/about/">О нас</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div>
+                <div class="btn__book btn_orange"><span>Забронировать место</span></div>
+            </div>
+            <div>
+                <a href="tel:8-939-888-88-93" class="header__phone" onclick="ym(101402689, 'reachGoal', 'phone_click'); return true;">8-939-888-88-93</a>
+                <div class="header__call" onclick="ym(101402689, 'reachGoal', 'callback_request'); return true;">Обратный звонок</div>
+            </div>	
+            <div>
+                <div class="header__social flex">
+                    <a href="https://t.me/gonzo_cyber_bot" target="_blank" onclick="ym(101402689, 'reachGoal', 'tg_click'); return true;">
+                        <img class="social-icon" src="https://gonzocybersport.ru/wp-content/themes/gonzo/images/telegram-icon.svg" alt=""/>
                     </a>
-                    <a href="https://vk.com/gonzocybersport" target="_blank">
-                        <img class="social-icon" src="https://gonzocybersport.ru/wp-content/themes/gonzo/images/vk-icon.svg" alt="VK">
+                    <a href="https://vk.com/gonzocybersport" target="_blank" onclick="ym(101402689, 'reachGoal', 'vk_click'); return true;">
+                        <img class="social-icon" src="https://gonzocybersport.ru/wp-content/themes/gonzo/images/vk-icon.svg" alt=""/>
                     </a>
-                    <a href="https://wa.me/+79855930015" target="_blank">
-                        <img class="social-icon" src="https://gonzocybersport.ru/wp-content/themes/gonzo/images/whatsapp-icon.svg" alt="WhatsApp">
+                    <a href="https://wa.me/+79855930015" target="_blank" onclick="ym(101402689, 'reachGoal', 'wa_click'); return true;">
+                        <img class="social-icon" src="https://gonzocybersport.ru/wp-content/themes/gonzo/images/whatsapp-icon.svg" alt=""/>
                     </a>
                 </div>
-                <div class="btn_orange">Забронировать место</div>
+            </div>
+            <div class="btn__menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-    </header>
-
+    </div>
+</header>
     <section class="tariffs-section">
         <div class="container">
             <h2 class="h2_title">Тарифы</h2>
